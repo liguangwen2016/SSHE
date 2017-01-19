@@ -41,7 +41,19 @@
 	</filter>
 	<filter-mapping>
 		<filter-name>sessionFilter</filter-name>
-		<url-pattern>/*</url-pattern>
+		<url-pattern>*.jsp</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>sessionFilter</filter-name>
+		<url-pattern>*.html</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>sessionFilter</filter-name>
+		<url-pattern>/monitoring</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>sessionFilter</filter-name>
+		<url-pattern>/config-browser/*</url-pattern>
 	</filter-mapping>
 	
 	<!-- 添加javamelody监控 -->
