@@ -18,7 +18,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
 /**
- * 用于过滤需要拦截的JSP文件
+ * 用于过滤需要拦截的JSP、HTML文件
  * 
  * @author 孙宇
  * 

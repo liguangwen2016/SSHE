@@ -387,7 +387,9 @@
                 <version>1.1</version>  
                 <configuration>  
                     <url>http://localhost:8080/manager/text</url>  
-                    <server>admin</server>  
+                    <server>admin</server> 
+                    <username>tomcat</username>    
+                    <password>tomcat</password>
                     <ignorePackaging>true</ignorePackaging>  
                 </configuration>  
             </plugin>  
